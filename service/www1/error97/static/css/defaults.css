@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*cursor: url("./static/images/mus.png"), auto;*/
+}
+html { height: 5000px; }
+a {
+    text-decoration: none;
+    color: black;
+}
+ul, ol { list-style-type: none; }
+
+::-webkit-scrollbar {
+    width: 17px;
+    background-color: #f2f2f2;
+}
+::-webkit-scrollbar-thumb { background-image: url("../../static/images/favicon/favicon.ico"); }

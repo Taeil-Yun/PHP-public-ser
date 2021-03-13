@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Admin</title>
+    <link rel="stylesheet" href="/static/css/index.css?ver=5">
+    <script src="/static/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="/static/js/member/login.js"></script>
+    <script type="text/javascript" src="/static/js/cheat_login.js"></script>
+</head>
+<body style="background-image: url('/static/img/background.png');overflow-y:hidden;">
+
+<div id="login_box">
+
+    <div class="main_txt_div">
+        <span class="title"><img src="/static/img/codberg2.JPG"></span>
+    </div>
+
+
+    <div class="info_box">
+        <div style="display:inline-block;">
+            <div class="info_box">
+                <input type="text" name="mem_id" placeholder="User ID" class="input_txt">
+            </div>
+
+            <div class="info_box">
+                <input type="password" name="mem_password" placeholder="Password" class="input_txt">
+            </div>
+        </div>
+
+        <div class='btn' style="display:inline-block;">
+            <input type="button" value="LOGIN" class="btn_login" onclick="login()">
+            <input type="button" value="ADMIN" class="btn_login" onclick="cheat()">
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

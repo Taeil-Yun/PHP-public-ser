@@ -1,0 +1,74 @@
+
+.mail_box {
+    border-bottom: solid 1px #A4A4A4;
+}
+
+.mail_list {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+    font-size: 13px;
+}
+
+.mail_box tr {
+    height: 33px;
+    border-bottom: 1px solid #dadada;
+}
+
+.mail_box td {
+    line-height: 33px;
+}
+
+.mail_etc {
+    text-align: right;
+    width: 110px;
+    color: #999;
+    font-size: 13px;
+}
+
+.seen_bold {
+    color: #0459c1 !important;
+}
+
+.seen_bold a {
+    color: #0459c1 !important;
+}
+
+.href {
+    text-decoration: none;
+    color: black;
+}
+
+.href:hover {
+    text-decoration: underline;
+}
+
+
+.wrap-loading { /*화면 전체를 어둡게 합니다.*/
+    z-index: 200;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.2); /*not in ie */
+    filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr='#20000000', endColorstr='#20000000'); /* ie */
+}
+
+.display-none { /*감추기*/
+    display: none;
+}
+
+
+.send_me_div {
+    margin-left: 15px;
+    text-align: center;
+    line-height: 23px;
+    width: 65px;
+    height: 23px;
+    font-size: 11px;
+    display: inline-block;
+    color: #A4A4A4;
+    background-color: #FAFAFA;
+    border: 1px solid #dadada;
+}
